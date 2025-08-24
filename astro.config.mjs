@@ -6,7 +6,8 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-  // site: 'https://imane-el-mohalil.dev', // Uncomment and update with your actual domain when deploying
+  site: 'https://imaan6.github.io',
+  base: '/My-portfolio',
   integrations: [
     react({
       include: ['**/components/**'],
