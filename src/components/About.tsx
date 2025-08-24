@@ -64,19 +64,19 @@ const About: React.FC<AboutProps> = ({ data }) => {
   ];
 
   return (
-    <section id="about" className="py-20 px-6 lg:px-8 relative">
+    <section id="about" className="py-12 sm:py-16 lg:py-20 px-6 lg:px-8 relative">
       <div className="max-w-7xl mx-auto">
         <motion.div
           ref={ref}
           variants={containerVariants}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
-          className="grid lg:grid-cols-2 gap-12 items-center"
+          className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-start lg:items-center"
         >
           {/* Left side - Text content */}
-          <div className="space-y-8">
+          <div className="space-y-6 sm:space-y-8">
             <motion.div variants={itemVariants}>
-              <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-8">
+              <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 sm:mb-8">
                 <span className="text-slate-300">About </span>
                 <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
                   Me
@@ -91,7 +91,7 @@ const About: React.FC<AboutProps> = ({ data }) => {
             </motion.div>
 
             <motion.div variants={itemVariants} className="space-y-6">
-              <h3 className="text-3xl lg:text-4xl font-bold text-slate-200 mb-6">
+              <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-200 mb-4 sm:mb-6">
                 What drives me:
               </h3>
               <div className="space-y-5">
@@ -133,7 +133,7 @@ const About: React.FC<AboutProps> = ({ data }) => {
           </div>
 
           {/* Right side - Stats and visual elements */}
-          <div className="space-y-8">
+          <div className="space-y-6 sm:space-y-8">
             {/* Profile card */}
             <motion.div
               variants={itemVariants}

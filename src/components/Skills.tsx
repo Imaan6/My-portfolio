@@ -66,7 +66,7 @@ const Skills: React.FC<SkillsProps> = ({ data }) => {
   };
 
   return (
-    <section id="skills" className="py-20 px-6 lg:px-8 relative">
+    <section id="skills" className="py-12 sm:py-16 lg:py-20 px-6 lg:px-8 relative">
       {/* Background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <motion.div
