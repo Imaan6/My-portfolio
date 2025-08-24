@@ -18,7 +18,7 @@ interface SkillsProps {
 
 const Skills: React.FC<SkillsProps> = ({ data }) => {
   const ref = useRef<HTMLDivElement>(null);
-  const isInView = useInView(ref, { once: true, amount: 0.2 });
+  const isInView = useInView(ref, { once: true, amount: 0.1 });
 
   if (!data || !Array.isArray(data)) return null;
 
@@ -103,59 +103,59 @@ const Skills: React.FC<SkillsProps> = ({ data }) => {
           animate={isInView ? "visible" : "hidden"}
         >
           {/* Section header */}
-          <motion.div variants={itemVariants} className="text-center mb-20">
-            <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-8">
+          <motion.div variants={itemVariants} className="text-center mb-12 sm:mb-16 lg:mb-20">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 sm:mb-8">
               <span className="text-slate-300">My </span>
               <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
                 Skills
               </span>
             </h2>
-            <p className="text-xl lg:text-2xl text-slate-400 max-w-4xl mx-auto">
+            <p className="text-lg sm:text-xl lg:text-2xl text-slate-400 max-w-4xl mx-auto px-4">
               A comprehensive toolkit of technologies and frameworks I use to build robust, scalable solutions
             </p>
           </motion.div>
 
           {/* Skills grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {data.map((skillCategory, categoryIndex) => (
               <motion.div
                 key={categoryIndex}
                 variants={itemVariants}
-                className="bg-slate-800/30 backdrop-blur-sm rounded-2xl p-8 border border-slate-700/50 hover:border-slate-600/50 transition-all duration-300"
+                className="bg-slate-800/30 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-slate-700/50 hover:border-slate-600/50 transition-all duration-300"
                 whileHover={{ y: -5, scale: 1.02 }}
               >
                 {/* Category header */}
-                <div className="flex items-center space-x-4 mb-8">
-                  <span className="text-4xl">{getCategoryIcon(skillCategory.category)}</span>
-                  <h3 className="text-2xl lg:text-3xl font-bold text-white">
+                <div className="flex items-center space-x-3 sm:space-x-4 mb-6 sm:mb-8">
+                  <span className="text-3xl sm:text-4xl">{getCategoryIcon(skillCategory.category)}</span>
+                  <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white">
                     {skillCategory.category}
                   </h3>
                 </div>
 
                 {/* Skills list */}
-                <div className="space-y-4">
+                <div className="space-y-3 sm:space-y-4">
                   {skillCategory.technologies.map((tech, techIndex) => (
                     <motion.div
                       key={techIndex}
                       variants={skillVariants}
-                      className="group flex items-center space-x-4 p-4 rounded-xl hover:bg-slate-700/40 transition-colors duration-200"
+                      className="group flex items-center space-x-3 sm:space-x-4 p-3 sm:p-4 rounded-xl hover:bg-slate-700/40 transition-colors duration-200"
                       whileHover={{ x: 8 }}
                     >
                       <motion.img
                         src={tech.icon}
                         alt={`${tech.name} icon`}
-                        className="w-8 h-8 group-hover:scale-110 transition-transform duration-200"
+                        className="w-6 h-6 sm:w-8 sm:h-8 group-hover:scale-110 transition-transform duration-200 flex-shrink-0"
                         whileHover={{ rotate: [0, 8, -8, 0] }}
                         transition={{ duration: 0.3 }}
                       />
-                      <span className="text-lg lg:text-xl font-medium text-slate-300 group-hover:text-white transition-colors duration-200">
+                      <span className="text-base sm:text-lg lg:text-xl font-medium text-slate-300 group-hover:text-white transition-colors duration-200">
                         {tech.name}
                       </span>
                       
                       {/* Skill level indicator */}
                       <div className="ml-auto">
                         <motion.div
-                          className="w-16 h-1 bg-slate-600 rounded-full overflow-hidden"
+                          className="w-12 sm:w-16 h-1 bg-slate-600 rounded-full overflow-hidden"
                           initial={{ opacity: 0 }}
                           animate={{ opacity: isInView ? 1 : 0 }}
                           transition={{ delay: (categoryIndex * 0.1) + (techIndex * 0.05) }}
@@ -199,7 +199,7 @@ const Skills: React.FC<SkillsProps> = ({ data }) => {
           {/* Bottom CTA */}
           <motion.div
             variants={itemVariants}
-            className="text-center mt-16"
+            className="text-center mt-12 sm:mt-16"
           >
             <motion.p
               className="text-lg text-slate-400 mb-6"
