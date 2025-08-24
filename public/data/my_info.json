@@ -114,10 +114,10 @@
         { "name": "Go", "icon": "https://cdn.simpleicons.org/go/00ADD8" },
         { "name": "PHP", "icon": "https://cdn.simpleicons.org/php/777BB4" },
         { "name": "Python", "icon": "https://cdn.simpleicons.org/python/3776AB" },
-        { "name": "Playwright", "icon": "https://icon.iconify.design/logos/playwright.svg" },
+        { "name": "Playwright", "icon": "https://cdn.simpleicons.org/hotwire" },
         { "name": "AWS", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" },
-        { "name": "S3", "icon": "https://icon.iconify.design/logos/aws-s3.svg" },
-        { "name": "Lambda", "icon": "https://icon.iconify.design/logos/aws-lambda.svg" },
+        { "name": "S3", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" },
+        { "name": "Lambda", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" },
         { "name": "Elasticsearch", "icon": "https://cdn.simpleicons.org/elasticsearch/005571" },
         { "name": "REST APIs", "icon": "https://cdn.simpleicons.org/fastapi/009688" }
       ]
@@ -192,7 +192,7 @@
         { "name": "Go", "icon": "https://cdn.simpleicons.org/go/00ADD8" },
         { "name": "PHP", "icon": "https://cdn.simpleicons.org/php/777BB4" },
         { "name": "Python", "icon": "https://cdn.simpleicons.org/python/3776AB" },
-        { "name": "Playwright", "icon": "https://icon.iconify.design/logos/playwright.svg" },
+        { "name": "Playwright", "icon": "https://cdn.simpleicons.org/hotwire" },
         { "name": "GraphQL", "icon": "https://cdn.simpleicons.org/graphql/E10098" },
         { "name": "API Development", "icon": "https://cdn.simpleicons.org/swagger/85EA2D" },
         { "name": "AWS", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" },
