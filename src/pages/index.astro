@@ -1,16 +1,23 @@
 ---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.tsx';
+import About from '../components/About.tsx';
+import Skills from '../components/Skills.tsx';
+import Experience from '../components/Experience.tsx';
+import Projects from '../components/Projects.tsx';
+import Contact from '../components/Contact.tsx';
 
+// Import JSON data directly
+import myInfo from '../../public/data/my_info.json';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title="Imane EL MOHALIL - Backend & AI/ML Engineer" description="Passionate Backend Developer & AI/ML Engineer with expertise in Go, Python, PHP, and cloud technologies. Building scalable web services and intelligent solutions.">
+	<main class="overflow-hidden">
+		<Hero client:load data={myInfo.aboutMe} />
+		<About client:load data={myInfo.aboutMe} />
+		<Skills client:load data={myInfo.skills} />
+		<Experience client:load data={myInfo.experiences} />
+		<Projects client:load data={myInfo.projects} />
+		<Contact client:load data={myInfo.aboutMe} />
+	</main>
+</Layout>

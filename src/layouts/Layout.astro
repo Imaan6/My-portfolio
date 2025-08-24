@@ -1,0 +1,112 @@
+---
+import '../styles/global.css';
+
+export interface Props {
+	title: string;
+	description?: string;
+	keywords?: string;
+	image?: string;
+}
+
+const { title, description = "Backend Developer & AI/ML Engineer passionate about building scalable web services and intelligent solutions.", keywords = "Backend Developer, AI Engineer, Machine Learning, Go, Python, PHP, AWS, Cloud Computing, API Development, GraphQL, REST APIs", image = "/favicon.svg" } = Astro.props;
+
+const canonicalURL = Astro.site ? new URL(Astro.url.pathname, Astro.site) : Astro.url;
+---
+
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content={description} />
+		<meta name="keywords" content={keywords} />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		
+		<!-- SEO Meta Tags -->
+		<title>{title}</title>
+		<meta name="description" content={description} />
+		<meta name="keywords" content={keywords} />
+		<meta name="author" content="Imane EL MOHALIL" />
+		<link rel="canonical" href={canonicalURL} />
+		
+		<!-- Open Graph -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content={Astro.url} />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:image" content={image.startsWith('http') ? image : (Astro.site ? new URL(image, Astro.site) : image)} />
+		
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content={Astro.url} />
+		<meta property="twitter:title" content={title} />
+		<meta property="twitter:description" content={description} />
+		<meta property="twitter:image" content={image.startsWith('http') ? image : (Astro.site ? new URL(image, Astro.site) : image)} />
+		
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+		
+		<!-- Theme -->
+		<meta name="theme-color" content="#0f172a" />
+		<meta name="color-scheme" content="dark light" />
+	</head>
+	<body class="bg-slate-950 text-white font-sans antialiased">
+		<slot />
+		
+		<!-- Smooth scrolling script -->
+		<script>
+			// Add smooth scrolling behavior
+			document.documentElement.style.scrollBehavior = 'smooth';
+			
+			// Handle navigation clicks
+			document.addEventListener('click', (e) => {
+				if (!e.target || !(e.target instanceof Element)) return;
+				
+				const link = e.target.closest('a[href^="#"]');
+				if (link) {
+					e.preventDefault();
+					const href = link.getAttribute('href');
+					if (href) {
+						const target = document.querySelector(href);
+						if (target) {
+							target.scrollIntoView({ behavior: 'smooth' });
+						}
+					}
+				}
+			});
+		</script>
+	</body>
+</html>
+
+<style is:global>
+	html {
+		font-family: 'Inter', system-ui, sans-serif;
+	}
+	
+	body {
+		line-height: 1.6;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+	
+	/* Custom scrollbar */
+	::-webkit-scrollbar {
+		width: 8px;
+	}
+	
+	::-webkit-scrollbar-track {
+		background: #1e293b;
+	}
+	
+	::-webkit-scrollbar-thumb {
+		background: #3b82f6;
+		border-radius: 4px;
+	}
+	
+	::-webkit-scrollbar-thumb:hover {
+		background: #2563eb;
+	}
+</style>

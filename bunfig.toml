@@ -1,0 +1,12 @@
+# Bun configuration for Astro portfolio project
+
+[install]
+# Use faster registry
+registry = "https://registry.npmjs.org/"
+
+# Cache dependencies for faster installs
+cache = true
+
+[run]
+# Optimize script execution
+shell = "bun"

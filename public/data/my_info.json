@@ -1,0 +1,268 @@
+{
+  "aboutMe": {
+    "name": "IMANE El Mohalil",
+    "title": "Backend & AI/ML Engineer",
+    "contact": {
+      "email": "elmohalilimane@gmail.com",
+      "phone": "",
+      "website": "www.linkedin.com/in/imane-el-mohalil"
+    },
+    "bio": "Backend developer passionate about building systems that scale and perform. Currently exploring AI/ML to solve complex problems in new ways. I thrive in collaborative environments and love turning technical challenges into elegant solutions.",
+    "links": [
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/imane-el-mohalil"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/Imaan6"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "category": "Backend Development",
+      "technologies": [
+        { "name": "Go (Golang)", "icon": "https://cdn.simpleicons.org/go/00ADD8" },
+        { "name": "Python", "icon": "https://cdn.simpleicons.org/python/3776AB" },
+        { "name": "PHP", "icon": "https://cdn.simpleicons.org/php/777BB4" },
+        { "name": "REST APIs", "icon": "https://cdn.simpleicons.org/swagger/85EA2D" },
+        { "name": "GraphQL", "icon": "https://cdn.simpleicons.org/graphql/E10098" },
+        { "name": "Microservices", "icon": "https://cdn.simpleicons.org/hotwire" },
+        { "name": "API Development", "icon": "https://cdn.simpleicons.org/swagger/85EA2D" },
+        { "name": "Node.js", "icon": "https://cdn.simpleicons.org/nodedotjs/339933" },
+        { "name": "Django", "icon": "https://cdn.simpleicons.org/django/092E20" },
+        { "name": "Spring Boot", "icon": "https://cdn.simpleicons.org/springboot/6DB33F" }
+      ]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "technologies": [
+        { "name": "AWS (Amazon Web Services)", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" },
+        { "name": "Amazon S3", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" },
+        { "name": "AWS Lambda", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" },
+        { "name": "EC2", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" },
+        { "name": "Elasticsearch", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" },
+        { "name": "AWS CloudFormation", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" },
+        { "name": "Microsoft Azure", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" },
+        { "name": "Docker", "icon": "https://cdn.simpleicons.org/docker/2496ED" },
+        { "name": "GitLab CI/CD", "icon": "https://cdn.simpleicons.org/gitlab/FC6D26" }
+      ]
+    },
+    {
+      "category": "AI & Machine Learning",
+      "technologies": [
+        { "name": "Machine Learning", "icon": "https://cdn.simpleicons.org/hotwire" },
+        { "name": "Scikit-Learn", "icon": "https://cdn.simpleicons.org/scikitlearn/F7931E" },
+        { "name": "ChatGPT", "icon": "https://cdn.simpleicons.org/openai/412991" },
+        { "name": "Claude", "icon": "https://cdn.simpleicons.org/anthropic/CD9B7A" }
+      ]
+    },
+    {
+      "category": "Databases",
+      "technologies": [
+        { "name": "MySQL", "icon": "https://cdn.simpleicons.org/mysql/4479A1" },
+        { "name": "PostgreSQL", "icon": "https://cdn.simpleicons.org/postgresql/4169E1" },
+        { "name": "MariaDB", "icon": "https://cdn.simpleicons.org/mariadb/003545" },
+        { "name": "Firebase", "icon": "https://cdn.simpleicons.org/firebase/FFCA28" }
+      ]
+    },
+    {
+      "category": "Programming Languages",
+      "technologies": [
+        { "name": "Go", "icon": "https://cdn.simpleicons.org/go/00ADD8" },
+        { "name": "Python", "icon": "https://cdn.simpleicons.org/python/3776AB" },
+        { "name": "PHP", "icon": "https://cdn.simpleicons.org/php/777BB4" },
+        { "name": "Java", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
+        { "name": "C/C++", "icon": "https://cdn.simpleicons.org/cplusplus/00599C" },
+        { "name": "C", "icon": "https://cdn.simpleicons.org/c/A8B9CC" },
+        { "name": "TypeScript", "icon": "https://cdn.simpleicons.org/typescript/3178C6" }
+      ]
+    },
+    {
+      "category": "Testing & Quality Assurance",
+      "technologies": [
+        { "name": "Unit Testing", "icon": "https://cdn.simpleicons.org/testinglibrary/E33332" },
+        { "name": "Mock Testing", "icon": "https://cdn.simpleicons.org/jest/C21325" },
+        { "name": "Test-Containers", "icon": "https://cdn.simpleicons.org/docker/2496ED" }
+      ]
+    },
+    {
+      "category": "Tools & Automation",
+      "technologies": [
+        { "name": "Automation", "icon": "https://cdn.simpleicons.org/hotwire"},
+        { "name": "Web Scraping", "icon": "https://cdn.simpleicons.org/hotwire" },
+        { "name": "Playwright", "icon": "https://cdn.simpleicons.org/hotwire" },
+        { "name": "Git", "icon": "https://cdn.simpleicons.org/git/F05032" },
+        { "name": "Linux System Administration", "icon": "https://cdn.simpleicons.org/linux/FCC624" }
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "role": "Backend Developer",
+      "company": "Prestigia.com",
+      "duration": "Nov 2024 - Present",
+      "description": "As a key member of the backend team, I contribute to the development and maintenance of high-traffic web services using Go and PHP. My role involves debugging complex issues, implementing new features, and building scalable automation tools and web scrapers with Python and Playwright. I leverage my cloud expertise to manage and deploy solutions on AWS, utilizing S3, Lambda, and Elasticsearch to ensure system reliability and performance.",
+      "keyAchievements": [
+        "Enhanced system scalability by developing and maintaining core backend features in a high-performance microservices architecture.",
+        "Improved data acquisition processes by building and updating sophisticated web scrapers and automation tools.",
+        "Ensured infrastructure resilience and performance by deploying and managing services on AWS.",
+        "Reduced legacy system bugs by 20% through proactive debugging and code refactoring."
+      ],
+      "technologies": [
+        { "name": "Go", "icon": "https://cdn.simpleicons.org/go/00ADD8" },
+        { "name": "PHP", "icon": "https://cdn.simpleicons.org/php/777BB4" },
+        { "name": "Python", "icon": "https://cdn.simpleicons.org/python/3776AB" },
+        { "name": "Playwright", "icon": "https://icon.iconify.design/logos/playwright.svg" },
+        { "name": "AWS", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" },
+        { "name": "S3", "icon": "https://icon.iconify.design/logos/aws-s3.svg" },
+        { "name": "Lambda", "icon": "https://icon.iconify.design/logos/aws-lambda.svg" },
+        { "name": "Elasticsearch", "icon": "https://cdn.simpleicons.org/elasticsearch/005571" },
+        { "name": "REST APIs", "icon": "https://cdn.simpleicons.org/fastapi/009688" }
+      ]
+    },
+    {
+      "role": "Full-stack Developer",
+      "company": "INNOVX",
+      "duration": "Mar 2024 - Aug 2024",
+      "description": "In this role, I was instrumental in a major backend overhaul to enhance application performance. I led the migration of a Django application to a more performant Go-based Gin framework, which involved architecting and implementing a new API layer from the ground up. A strong focus on quality was maintained through rigorous unit testing.",
+      "keyAchievements": [
+        "Significantly improved application response times by migrating the backend from Django to the high-performance Gin framework in Go.",
+        "Designed and implemented over 40 robust and well-documented RESTful APIs to support new application features.",
+        "Established a high standard of code quality by writing comprehensive unit tests with test-containers and mock testing for all new code.",
+        "Collaborated with frontend teams to ensure seamless API integration and user experience."
+      ],
+      "technologies": [
+        { "name": "Go", "icon": "https://cdn.simpleicons.org/go/00ADD8" },
+        { "name": "Gin Framework", "icon": "https://cdn.simpleicons.org/go/00ADD8" },
+        { "name": "Django", "icon": "https://cdn.simpleicons.org/django/092E20" },
+        { "name": "REST APIs", "icon": "https://cdn.simpleicons.org/swagger/85EA2D" },
+        { "name": "Unit Testing", "icon": "https://cdn.simpleicons.org/testinglibrary/E33332" },
+        { "name": "Test-Containers", "icon": "https://cdn.simpleicons.org/docker/2496ED" },
+        { "name": "Docker", "icon": "https://cdn.simpleicons.org/docker/2496ED" }
+      ]
+    },
+    {
+      "role": "Freelance Web Developer",
+      "company": "Upwork",
+      "duration": "Jan 2018 - Apr 2020",
+      "description": "As a freelance developer, I delivered custom web solutions for a diverse range of international clients. My work involved full-stack development, from designing user interfaces with HTML/CSS to building robust backend functionalities and REST APIs. I successfully managed multiple projects simultaneously, ensuring client satisfaction through clear communication and high-quality deliverables.",
+      "keyAchievements": [
+        "Delivered over 15 web development and design projects for clients worldwide.",
+        "Maintained a 5-star rating on Upwork through consistent high-quality work and client communication.",
+        "Developed custom REST APIs to integrate third-party services for various client applications."
+      ],
+      "technologies": [
+        { "name": "HTML", "icon": "https://cdn.simpleicons.org/html5/E34F26" },
+        { "name": "CSS", "icon": "https://cdn.simpleicons.org/css/1572B6" },
+        { "name": "JavaScript", "icon": "https://cdn.simpleicons.org/javascript/F7DF1E" },
+        { "name": "PHP", "icon": "https://cdn.simpleicons.org/php/777BB4" },
+        { "name": "REST APIs", "icon": "https://cdn.simpleicons.org/swagger/85EA2D" },
+        { "name": "Web Design", "icon": "https://cdn.simpleicons.org/sketch/F7B500" }
+      ]
+    },
+    {
+      "role": "Software Engineer Intern",
+      "company": "OCP Group",
+      "duration": "Apr 2019 - Jul 2019",
+      "description": "During my internship, I was tasked with developing a full-scale desktop application to streamline the management of occupational accidents. This project involved the entire software development lifecycle, from initial requirements gathering and database design to backend and frontend implementation using Java.",
+      "keyAchievements": [
+        "Successfully designed and developed a Java desktop application for internal use.",
+        "Created a user-friendly interface to simplify data entry and management of accident reports.",
+        "Built a secure and efficient database schema to handle sensitive employee data."
+      ],
+      "technologies": [
+        { "name": "Java", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
+        { "name": "Swing", "icon": "https://cdn.simpleicons.org/gnome" },
+        { "name": "MySQL", "icon": "https://cdn.simpleicons.org/mysql/4479A1" },
+        { "name": "Software Design", "icon": "https://cdn.simpleicons.org/hotwire" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI-Enhanced Hotel Platform",
+      "associated_with": "Prestigia.com",
+      "duration": "Nov 2024 - Present",
+      "challenge": "To stay competitive, the platform needed to integrate new hotel providers, enhance its backend with AI-driven features for better recommendations, and scale its data collection capabilities.",
+      "solution": "I contributed to the backend by integrating the HotelBed API and developing new features in both PHP and Go. I also built and maintained scalable web scrapers using Python and Playwright to gather essential data. The entire system is supported by a robust AWS infrastructure.",
+      "outcome": "The platform now offers a wider range of hotel options and provides more intelligent, AI-powered user experiences. The enhanced data scraping capabilities ensure the platform has up-to-date and comprehensive information.",
+      "technologies": [
+        { "name": "Go", "icon": "https://cdn.simpleicons.org/go/00ADD8" },
+        { "name": "PHP", "icon": "https://cdn.simpleicons.org/php/777BB4" },
+        { "name": "Python", "icon": "https://cdn.simpleicons.org/python/3776AB" },
+        { "name": "Playwright", "icon": "https://icon.iconify.design/logos/playwright.svg" },
+        { "name": "GraphQL", "icon": "https://cdn.simpleicons.org/graphql/E10098" },
+        { "name": "API Development", "icon": "https://cdn.simpleicons.org/swagger/85EA2D" },
+        { "name": "AWS", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" },
+        { "name": "S3", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" },
+        { "name": "Lambda", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" },
+        { "name": "Elasticsearch", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" },
+        { "name": "Claude", "icon": "https://cdn.simpleicons.org/anthropic/CD9B7A" },
+        { "name": "ChatGPT", "icon": "https://cdn.simpleicons.org/openai/412991" }
+      ],
+      "links": "https://prestigia.com/"
+    },
+    {
+      "name": "Tourba - Backend Performance Optimization",
+      "associated_with": "INNOVX",
+      "duration": "Mar 2024 - Aug 2024",
+      "challenge": "The existing Django-based backend was struggling with slow performance and scalability issues, which negatively impacted the user experience as the user base grew.",
+      "solution": "I led the migration of the backend from Python/Django to Go/Gin framework. This involved architecting and implementing more than 40 new RESTful APIs, designing the database schema, and establishing a rigorous testing protocol using test-containers and mocks to ensure reliability.",
+      "outcome": "The migration resulted in a significant improvement in API response times and overall application performance. The new Go-based backend is more scalable, maintainable, and prepared for future growth.",
+      "technologies": [
+        { "name": "Go", "icon": "https://cdn.simpleicons.org/go/00ADD8" },
+        { "name": "Gin Framework", "icon": "https://cdn.simpleicons.org/go/00ADD8" },
+        { "name": "Python", "icon": "https://cdn.simpleicons.org/python/3776AB" },
+        { "name": "Django", "icon": "https://cdn.simpleicons.org/django/092E20" },
+        { "name": "Swagger", "icon": "https://cdn.simpleicons.org/swagger/85EA2D" },
+        { "name": "Docker", "icon": "https://cdn.simpleicons.org/docker/2496ED" },
+        { "name": "Unit Testing", "icon": "https://cdn.simpleicons.org/testinglibrary/E33332" },
+        { "name": "Microsoft Azure", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" }
+      ],
+      "links": "https://tourba.ma/"
+    },
+    {
+      "name": "Technical Accident Management System",
+      "associated_with": "OCP Group",
+      "duration": "Apr 2019 - Jul 2019",
+      "challenge": "OCP Group required a centralized and efficient system to manage technical and occupational accidents, replacing a manual and error-prone process.",
+      "solution": "I designed and developed a full-stack web application from scratch. This included creating the database schema, building the backend logic using Java EE and Spring, and designing a user-friendly frontend. The application provided a complete solution for accident reporting and management.",
+      "outcome": "The application streamlined the accident management process, reducing paperwork and improving data accuracy. It provided a centralized platform for tracking and analyzing safety incidents, leading to better workplace safety protocols.",
+      "technologies": [
+        { "name": "Java", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
+        { "name": "Spring Boot", "icon": "https://cdn.simpleicons.org/springboot/6DB33F" },
+        { "name": "Maven", "icon": "https://cdn.simpleicons.org/apachemaven/C71A36" },
+        { "name": "MySQL", "icon": "https://cdn.simpleicons.org/mysql/4479A1" }
+      ],
+      "links": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "1337 Coding School",
+      "degree": "Software Engineering",
+      "duration": "Sep 2021 - Jan 2024",
+      "description": "A project-based, peer-to-peer learning environment focused on practical software development skills, algorithms, and system administration."
+    },
+    {
+      "institution": "Ecole Supérieure Vinci",
+      "degree": "Bachelor's degree, Software Engineering",
+      "duration": "2016 - 2019",
+      "description": "Comprehensive curriculum covering software engineering principles, programming, database management, and system architecture."
+    }
+  ],
+  "licenses_certifications": [
+    {
+      "name": "Certificate of participation in 1MAC Full Stack Development Track",
+      "issuer": "1 Million Arab Coders",
+      "date": "Issued Nov 2019",
+      "credentialId": "YEVCSMCZ",
+      "skills": [
+        "Continuous Integration and Continuous Delivery (CI/CD)",
+        "Full-Stack Development"
+      ]
+    }
+  ]
+}
